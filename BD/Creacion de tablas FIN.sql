@@ -30,7 +30,8 @@ CREATE TABLE materiales_educativos (
   nombre varchar NOT NULL,
   anio_publicacion date NOT NULL,
   estado boolean NOT NULL,
-  tipo varchar NOT NULL
+  tipo varchar NOT NULL,
+  id_usuario integer REFERENCES personas(id_persona)
 );
 
 -- Subtipos de Material Educativo
