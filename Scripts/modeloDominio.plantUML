@@ -1,0 +1,43 @@
+Diagrama de dominio:
+@startuml
+!theme plain
+
+class Persona
+class "Usuario Registrado" as UsuarioRegistrado
+class Administrador
+class "Material Educativo" as MaterialEducativo
+class Articulo
+class Libro
+class Curso
+class Modulo
+class Leccion
+
+class Reseña
+class Reporte
+class Comentario
+class PQRs
+
+Persona <|-- UsuarioRegistrado
+Persona <|-- Administrador
+
+MaterialEducativo <|-- Curso
+MaterialEducativo <|-- Articulo
+MaterialEducativo <|-- Libro
+
+UsuarioRegistrado --> MaterialEducativo : crea / descarga
+UsuarioRegistrado --> Comentario : realiza
+UsuarioRegistrado --> Reporte: realiza
+UsuarioRegistrado --> Curso : se inscribe
+UsuarioRegistrado --> Leccion : termina
+UsuarioRegistrado --> Reseña : realiza
+
+Reseña -->MaterialEducativo: evalua
+PQRs --> UsuarioRegistrado : realiza
+
+Curso -->Modulo : tiene
+Modulo --> Leccion :cuenta
+Leccion -->PQRs : recibe
+
+
+@enduml
+
