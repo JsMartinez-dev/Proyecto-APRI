@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+actor Cliente
+actor Administrador
+
+rectangle "SIME" {
+  (Gestionar Perfil) as GestionarPerfil
+  (Gestionar Material Educativo) as MaterialEducativo
+  (Gestionar PQRs) as Pqrs
+  (Gestionar Usuarios) as Usuarios
+  (Gestionar reportes) as Rerportes
+}
+
+Cliente -- GestionarPerfil
+Cliente -- MaterialEducativo
+
+Administrador -- Pqrs
+Administrador -- Usuarios
+Administrador -- Rerportes
+@enduml
