@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+skinparam usecase {
+  BackgroundColor White
+  BorderColor Black
+  ArrowColor Black
+  ActorBorderColor Black
+  ActorFontSize 14
+  ActorStyle stickman
+  UsecaseFontSize 14
+  Shadowing false
+}
+
+actor "Usuario" as User
+
+rectangle "Subir_Material_Educativo" {
+  usecase "Subir libro" as UC2
+  usecase "Subir artículo" as UC3
+  usecase "Subir curso" as UC4
+  usecase "Cancelar subida" as UC5
+}
+
+User -- UC5
+
+User -- UC2 
+User -- UC3  
+User -- UC4 
+
+@enduml
