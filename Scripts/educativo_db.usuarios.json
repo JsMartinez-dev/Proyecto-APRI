@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "691b5a07101e27cf9945c137"
+  },
+  "primer_nombre": "mongo",
+  "primer_apellido": "2",
+  "correo": "mongoo@gmail.com",
+  "institucion": "Universidad Nacional de Colombia",
+  "fecha_nacimiento": {
+    "$date": "2014-12-12T05:00:00.000Z"
+  },
+  "fecha_registro": {
+    "$date": "2025-11-17T05:00:00.000Z"
+  },
+  "contrasena": "$2a$10$uBTpqfZ0Mn7nBnlVyxxdW.3SjxIJisnb5wGTwj/bzfs/RCqHusJzi",
+  "estado": false,
+  "tipo": "usuario"
+},
+{
+  "_id": {
+    "$oid": "691b5a9a101e27cf9945c138"
+  },
+  "primer_nombre": "mongo",
+  "primer_apellido": "2",
+  "correo": "mongogo@gmail.com",
+  "institucion": "Universidad Nacional de Colombia",
+  "fecha_nacimiento": {
+    "$date": "2014-12-12T05:00:00.000Z"
+  },
+  "fecha_registro": {
+    "$date": "2025-11-17T05:00:00.000Z"
+  },
+  "contrasena": "$2a$10$9biI5GWM.Pq6r/VKwzi5vOmLlmD80M9tzjBhhg8apzU/jrDA72nfm",
+  "estado": false,
+  "tipo": "usuario"
+},
+{
+  "_id": {
+    "$oid": "691de24dfcc6a657c9ecd02c"
+  },
+  "primer_nombre": "Beto",
+  "primer_apellido": "Perez",
+  "correo": "beto@mongo.com",
+  "institucion": "Universidad de Antioquia",
+  "fecha_nacimiento": {
+    "$date": "2004-08-08T05:00:00.000Z"
+  },
+  "fecha_registro": {
+    "$date": "2025-11-19T05:00:00.000Z"
+  },
+  "contrasena": "$2a$10$xTRQa3Xs94JrzvuC4dyU4.DNi3teRJs0zYiyO7lhPkiFf2RugIbc.",
+  "estado": false,
+  "tipo": "usuario"
+},
+{
+  "_id": {
+    "$oid": "691de51afe4a6954b3c94708"
+  },
+  "id_persona": 1,
+  "primer_nombre": "Eduardo",
+  "primer_apellido": "Mongo",
+  "correo": "edua@gmail.com",
+  "institucion": "Universidad de Antioquia",
+  "fecha_nacimiento": {
+    "$date": "2004-04-04T05:00:00.000Z"
+  },
+  "fecha_registro": {
+    "$date": "2025-11-19T05:00:00.000Z"
+  },
+  "contrasena": "$2a$10$6GHYJQI6uy4szfimNEVLIOVvhroI3TeP6pDbCbysf.ot6GGedoJ.m",
+  "estado": false,
+  "tipo": "usuario"
+}]
