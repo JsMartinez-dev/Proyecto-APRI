@@ -1,6 +1,7 @@
 # APRI
 
-![APRI Logo](./Logo.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/JsMartinez-dev/Proyecto-APRI/blob/main/Logos/Logo.png" />
+
 
 
 **APRI** is a Java-based software project developed with a strong focus on software architecture principles and structured engineering practices.
@@ -21,7 +22,7 @@ APRI reflects a disciplined approach to software development, integrating archit
 ---
 
 ## Project Structure
-
+```bash
 The repository is organized into multiple directories that represent:
 
 - Architectural Design
@@ -29,7 +30,7 @@ The repository is organized into multiple directories that represent:
 - Source Code
 - Documentation
 - Final Report (PDF)
-
+```
 This organization ensures a clear separation between implementation, architectural decisions, and documentation.
 
 ---
