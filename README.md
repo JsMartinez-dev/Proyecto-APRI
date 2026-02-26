@@ -12,6 +12,10 @@ APRI reflects a disciplined approach to software development, integrating archit
 
 ---
 
+##  Contributors
+
+- [@ginozza](https://github.com/ginozza)
+
 ##  Technologies Used
 
 - **Java** – Core application logic
