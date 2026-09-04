@@ -45,6 +45,7 @@ This organization ensures a clear separation between implementation, architectur
 - Implement structured and maintainable Java code
 - Follow engineering best practices
 - Document architectural decisions and final results
+- more
 
 ---
 
